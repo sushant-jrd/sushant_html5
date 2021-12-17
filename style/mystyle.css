@@ -1,0 +1,27 @@
+legend.scheduler-border {
+    width: inherit;
+    /* Or auto */
+    padding: 0 10px;
+    /* To give a bit of padding on the left and right */
+    border-bottom: none;
+}
+
+body {
+    min-height: 90%;
+}
+
+.border {
+    border-width: 5px !important;
+    border-color: black;
+}
+
+
+.purple {
+    background-color: #4047c9 !important;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    padding-right: 20px;
+    color: white;
+}

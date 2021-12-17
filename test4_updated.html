@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<head>
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="script" href="script/myscripts.js">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/mystyle.css">
+
+</head>
+
+
+<body>
+    <div class="container-fluid">
+        <header class="text-center text-light">
+            <div class="container-fluid mt-3 bg-dark">
+                <h1 style="padding:30px;"> Header </h1>
+            </div>
+        </header>
+        <div>
+            <div class="text-white container-fluid" style="background-color:#4047c9;">
+                <div class="container container-fluid col-md-auto ">
+                    <nav class="navbar navbar-expand-lg purple navbar-dark bg-dark">
+                        <a class="navbar-brand" href="#">Home</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="navbar-brand" id="login" title="Login" href="#">Login <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="navbar-brand" id="logout" title="Logout" href="#">Logout</a>
+                                </li>
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" id="enterString" placeholder="Search"
+                                    aria-label="Search">
+                                <button class="btn btn-success my-2 my-sm-0" id = "submitBtn" title="Submit The Form" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </nav>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="border border-top-0 border-dark w3-bottombar ">
+        <div class="container col-md-6">
+            <fieldset class="border p-4 border-dark">
+                <legend class="w-auto scheduler-border"> Sign Up </legend>
+                <form action="#">
+                    <div class="form-group">
+                        <label for="fname"  class="control-label">First Name</label>
+                        <input type="text" id="fName" title="First Name" class="form-control" id="fname">
+                    </div>
+                    <div class="form-group">
+                        <label for="lname"  class="control-label">Last Name</label>
+                        <input type="text" id="lName" title="Last Name"  class="form-control" id="lname">
+                    </div>
+                    <div class="form-group">
+                        <label for="email"  class="control-label">Email</label>
+                        <input type="email" id="email" title = "E-Mail" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="username" class="control-label">Username</label>
+                        <input type="text" class="form-control" id="uname">
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="control-label">Password</label>
+                        <input type="password" title="Password" class="form-control" id="password">
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" title = "Check T&C to Continue" class="form-check-input" id="checkTnC">
+                        <label class="form-check-label" for="checkTnC">I agree with the <a href="#">Terms and
+                                Conditions.</a>
+                        </label>
+                    </div>
+                    <div style="float: right;"><button type="submit" class="btn btn-primary">Sign up</button></div>
+                </form>
+            </fieldset>
+
+        </div>
+        <footer class="text-center text-lg-start bg-light text-muted">
+
+
+            <br><br><br><br><br>
+            <!-- Copyright -->
+            <div class="text-center p-4 bg-dark text-center text-light">
+                © 2021 Copyright: Java RnD
+                <a class="text-reset fw-bold "></a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
